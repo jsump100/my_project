@@ -1,0 +1,5 @@
+@mixin border-radius($radius: 10px, $border-color: yellow){
+	-webkit-border-radius:	$radius;
+	border-radius: $radius;
+	border-color: $border-color;
+}
